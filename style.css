@@ -18,6 +18,47 @@ header {
     direction: row;
     align-items: center;
     justify-content: space-around;
+    background-color: var(--cor1);
+    height: 30vh;
+}
+
+.titulo {
+    color: var(--cor3);
+    font-size: 50px;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    
+}
+
+h2 {
+    color: var(--cor2);
+    font-size: 70px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    color: var(--cor3);
+    font-size: 70px;
+    
+}
+
+.vamosla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+    margin-bottom: 100px;
+    background-color: var(--cor1);
+    padding: 50px;
 }
 
 .adivinhacao {
