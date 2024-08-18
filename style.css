@@ -1,0 +1,68 @@
+@charset "UTF-08";
+
+:root{
+    --cor1: #3D8DE0;
+    --cor2: #E0483D;
+    --cor3: #CEE03D;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.adivinhacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Alinha a imagem e o controle (checkbox e label) lado a lado */
+.imagem-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    margin: 50px;
+    max-width: ;
+}
+
+/* Estiliza a classe .arara */
+.arara {
+    color: white;
+    background-color: white;
+}
+
+/* Esconde o checkbox */
+#toggle-color {
+    display: none;
+}
+
+/* Altera a cor do texto quando o checkbox está marcado */
+#toggle-color:checked ~ .arara {
+    color: black;
+}
+
+/* Estiliza o controle (label) para ter um espaçamento */
+.controle {
+    margin-left: 20px;
+}
