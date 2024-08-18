@@ -18,7 +18,6 @@ header {
     direction: row;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .adivinhacao {
@@ -31,38 +30,49 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-/* Alinha a imagem e o controle (checkbox e label) lado a lado */
 .imagem-container {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.controle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
 }
 
 img {
     height: 500px;
-    margin: 50px;
-    max-width: ;
+    max-width: 100%;
 }
 
-/* Estiliza a classe .arara */
-.arara {
-    color: white;
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--cor1);
+    color: var(black);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estiliza a classe para que o texto começe invisível */
+.nome-animal {
+    color: black;
     background-color: white;
-}
-
-/* Esconde o checkbox */
-#toggle-color {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
     display: none;
 }
 
-/* Altera a cor do texto quando o checkbox está marcado */
-#toggle-color:checked ~ .arara {
-    color: black;
-}
-
-/* Estiliza o controle (label) para ter um espaçamento */
-.controle {
-    margin-left: 20px;
+button:hover {
+    background-color: var(--cor2);
 }

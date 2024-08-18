@@ -14,7 +14,7 @@
             </span>
         </div>
         <div class="menu">
-            <h1 class="titulo">Descubra o Animal: Adivinhação divertida para crianças</h>
+            <h1 class="titulo">Descubra o Animal: Adivinhação divertida para crianças</h1>
         </div>
     </header>
     <main>
@@ -22,7 +22,7 @@
             <h2>Como funciona?</h2>
             <p>1 - Observe a imagem com atenção</p>
             <p>2 - Tente adivinhar o animal da imagem, e fale em voz alta o nome dele</p>
-            <p>3 - Depois clique na imagem para revelar qual é o animal.</p>
+            <p>3 - Depois clique no botão abaixo da imagem para revelar qual é o animal.</p>
         </section>
         <section class="adivinhacao">
             <h1>Vamos lá!!! Descubra o Animal.....</h1>
@@ -30,46 +30,93 @@
                 <div class="imagem-container">
                     <img src="imagem/arara.jpg" alt="animal-1">
                     <div class="controle">
-                        <input type="checkbox" id="toggle-color">
-                        <label for="toggle-color">Clique aqui</label>
-                        <p class="arara">ARARA</p>
+                        <button onclick="toggleNome('arara')">Clique aqui</button>
+                        <p id="arara" class="nome-animal">ARARA</p>
                     </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/baleia.jpg" alt="animal-2">
+                    <div class="controle">
+                        <button onclick="toggleNome('baleia')">Clique aqui</button>
+                        <p id="baleia" class="nome-animal">BALEIA</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/cachorro.jpg" alt="animal-3">
+                    <div class="controle">
+                        <button onclick="toggleNome('cachorro')">Clique aqui</button>
+                        <p id="cachorro" class="nome-animal">CACHORRO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/esquilo.jpg" alt="animal-4">
+                    <div class="controle">
+                        <button onclick="toggleNome('esquilo')">Clique aqui</button>
+                        <p id="esquilo" class="nome-animal">ESQUILO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/gato.jpg" alt="animal-5">
+                    <div class="controle">
+                        <button onclick="toggleNome('gato')">Clique aqui</button>
+                        <p id="gato" class="nome-animal">GATO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/girafa.jpg" alt="animal-6">
+                    <div class="controle">
+                        <button onclick="toggleNome('girafa')">Clique aqui</button>
+                        <p id="girafa" class="nome-animal">GIRAFA</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/leao.jpg" alt="animal-7">
+                    <div class="controle">
+                        <button onclick="toggleNome('leao')">Clique aqui</button>
+                        <p id="leao" class="nome-animal">LEÃO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/leopardo.jpg" alt="animal-8">
+                    <div class="controle">
+                        <button onclick="toggleNome('leopardo')">Clique aqui</button>
+                        <p id="leopardo" class="nome-animal">LEOPARDO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/macaco.jpg" alt="animal-9">
+                    <div class="controle">
+                        <button onclick="toggleNome('macaco')">Clique aqui</button>
+                        <p id="macaco" class="nome-animal">MACACO</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/perereca.jpg" alt="animal-10">
+                    <div class="controle">
+                        <button onclick="toggleNome('perereca')">Clique aqui</button>
+                        <p id="perereca" class="nome-animal">PERERECA</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="imagem/raposa.jpg" alt="animal-1">
+                <div class="imagem-container">
+                    <img src="imagem/raposa.jpg" alt="animal-11">
+                    <div class="controle">
+                        <button onclick="toggleNome('raposa')">Clique aqui</button>
+                        <p id="raposa" class="nome-animal">RAPOSA</p>
+                    </div>
                 </div>
-                <div>
+                <div class="imagem-container">
                     <img src="imagem/tartaruga.jpg" alt="animal-12">
+                    <div class="controle">
+                        <button onclick="toggleNome('tartaruga')">Clique aqui</button>
+                        <p id="tartaruga" class="nome-animal">TARTARUGA</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="imagem/tigre.jpg" alt="animal-12">
+                <div class="imagem-container">
+                    <img src="imagem/tigre.jpg" alt="animal-13">
+                    <div class="controle">
+                        <button onclick="toggleNome('tigre')">Clique aqui</button>
+                        <p id="tigre" class="nome-animal">TIGRE</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,5 +124,7 @@
     <footer>
         Imagem de <a href="https://br.freepik.com/fotos-gratis/vista-de-um-filhote-de-tigre-selvagem-debaixo-d-agua_63742849.htm#query=animal&position=1&from_view=keyword&track=ais_hybrid&uuid=d7b76e40-7107-4fe1-8b6a-eb86948767ae">Freepik</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
