@@ -28,6 +28,14 @@ header {
     flex: 1;
 }
 
+.logo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    max-height: 90%;
+}
+
 .menu {
     flex: 2;
     text-align: center;
@@ -174,6 +182,7 @@ footer > a {
 
 /* Estilos para telas menores */
 @media (max-width: 768px) {
+    
     header {
         height: auto;
         padding: 20px;
